@@ -1,0 +1,47 @@
+/* background cream lembut */
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: #f5e6d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* slide container */
+.slide {
+  text-align: center;
+}
+
+/* sembunyikan */
+.hide {
+  display: none;
+}
+
+/* gambar */
+img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* teks */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* tombol */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #ffb6b9;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff8b94;
+}
