@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #e7d3b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Comic Sans MS;
+}
+
+.slide {
+  text-align: center;
+  max-width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+.sticker-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.sticker-box img {
+  width: 140px;
+}
+
+h2 {
+  color: #5a4a3a;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #d8a48f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c98b78;
+  transform: scale(1.05);
+}

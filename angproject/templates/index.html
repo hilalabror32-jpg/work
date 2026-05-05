@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pencet Geh</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- SLIDE 1 -->
+<div class="slide" id="s1">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s1.jpg') }}">
+  </div>
+  <h2>Ready yaahhh</h2>
+  <button onclick="go(2)">START</button>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide hide" id="s2">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s2.jpg') }}">
+  </div>
+  <h2>Hai Anggi Cantik ❤️</h2>
+  <button onclick="go(3)">NEXT</button>
+</div>
+
+<!-- SLIDE 3 (NORMAL) -->
+<div class="slide hide" id="s3">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s3.jpg') }}">
+  </div>
+  <h2>cieee udah selesai</h2>
+  <button onclick="go(4)">NEXT</button>
+</div>
+
+<!-- SLIDE 4 -->
+<div class="slide hide" id="s4">
+  <h2>aku sedih tau 😢</h2>
+  <button onclick="go(5)">NEXT</button>
+</div>
+
+<!-- 🔥 SLIDE 5 (YES NO DI SINI) -->
+<div class="slide hide" id="s5">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s5.jpg') }}">
+  </div>
+
+  <h2>ada yg bakal kangen nih 😔</h2>
+
+  <button id="noBtn" onclick="noKabur()">NO</button>
+  <button onclick="go(6)">YES</button>
+</div>
+
+<!-- SLIDE 6 -->
+<div class="slide hide" id="s6">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s6.jpg') }}">
+  </div>
+  <h2>Aku bakal Kangennnnn bgt ❤️</h2>
+  <button onclick="go(7)">NEXT</button>
+</div>
+
+<!-- SLIDE 7 -->
+<div class="slide hide" id="s7">
+  <div class="sticker-box">
+    <img src="{{ url_for('static', filename='s7.jpg') }}">
+  </div>
+  <h2>i hope ur will be mine forever, i love you ❤️✨</h2>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
